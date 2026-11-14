@@ -1,0 +1,14 @@
+:root { --papel: #f7f1e3; --tinta: #2b2118; --vermelho: #9b1c1c; --linha: #d8ccb2; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--papel); color: var(--tinta);
+  font: 17px/1.6 Georgia, "Libre Baskerville", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+h1, h2 { font-family: "Cinzel", Georgia, serif; letter-spacing: .02em; }
+h1 { font-size: 2rem; margin: .2em 0; }
+h2 { font-size: 1.2rem; margin-top: 2em; }
+.selo { color: var(--vermelho); font-size: 2rem; margin: 0; }
+.slogan { color: var(--vermelho); font-style: italic; margin-top: 0; }
+.data { color: #6b5d4d; font-size: .9rem; }
+a { color: var(--vermelho); }
+hr { border: 0; border-top: 1px solid var(--linha); margin: 2.5em 0; }
+nav { margin-top: 2.5em; font-size: .95rem; }
